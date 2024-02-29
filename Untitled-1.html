@@ -3,72 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sample HTML Document</title>
-    <style>
-        /* CSS styles can be added here */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f0f0f0;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 10px;
-            text-align: center;
-        }
-        nav {
-            background-color: #666;
-            padding: 10px;
-            text-align: center;
-        }
-        section {
-            padding: 20px;
-        }
-        footer {
-            background-color: #333;
-            color: #fff;
-            padding: 10px;
-            text-align: center;
-        }
-    </style>
+    <title>HTML Template</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-    <h1>Welcome to My Website</h1>
-</header>
+    <header>Header content</header>
+    <main>Main content</main>
+    <footer>Footer content</footer>
 
-<nav>
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <p>Paragraph</p>
+
+    <strong>Strong text</strong>
+    <em>Emphasized text</em>
+
     <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Contact</a></li>
+        <li>List item 1</li>
+        <li>List item 2</li>
     </ul>
-</nav>
+    <ol>
+        <li>Ordered list item 1</li>
+        <li>Ordered list item 2</li>
+    </ol>
 
-<section>
-    <h2>About Us</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vehicula massa quis dui tincidunt, sed bibendum turpis tincidunt.</p>
-</section>
+    <a href="https://www.youtube.com/watch?v=cfWgS8a9UVs"></a>
 
-<section>
-    <h2>Our Services</h2>
-    <ul>
-        <li>Web Design</li>
-        <li>Graphic Design</li>
-        <li>SEO Optimization</li>
-    </ul>
-</section>
-<video width="320" height="240" controls>
-    <source src="FIles/videoplayback.mp4" type="video/mp4">
-</video>
+    <img src="FIles/1.jpg" alt="Image description">
 
-<footer>
-    <p>&copy; 2024 My Website. All rights reserved.</p>
-</footer>
+    <table>
+        <thead>
+            <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Data 1</td>
+                <td>Data 2</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <form action="/submit" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <button type="submit">Submit</button>
+    </form>
+
+    <video src="FIles/videoplayback.mp4" controls></video>
+    <audio src="FIles/Oo.mp3" controls></audio>
 
 </body>
 </html>
